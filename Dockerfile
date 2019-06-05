@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3:5.0.0
+FROM continuumio/anaconda3:latest
 
 RUN apt-get update && apt-get install -y automake \
                                          libtool \
